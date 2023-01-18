@@ -1,0 +1,11 @@
+C:\Users\Nubi\Desktop\Zad1\Zad1\bin\Debug\Zad1.exe.config
+C:\Users\Nubi\Desktop\Zad1\Zad1\bin\Debug\Zad1.exe
+C:\Users\Nubi\Desktop\Zad1\Zad1\bin\Debug\Zad1.pdb
+C:\Users\Nubi\Desktop\Zad1\Zad1\obj\Debug\Zad1.csproj.AssemblyReference.cache
+C:\Users\Nubi\Desktop\Zad1\Zad1\obj\Debug\Zad1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Nubi\Desktop\Zad1\Zad1\obj\Debug\Zad1.Form1.resources
+C:\Users\Nubi\Desktop\Zad1\Zad1\obj\Debug\Zad1.Properties.Resources.resources
+C:\Users\Nubi\Desktop\Zad1\Zad1\obj\Debug\Zad1.csproj.GenerateResource.cache
+C:\Users\Nubi\Desktop\Zad1\Zad1\obj\Debug\Zad1.csproj.CoreCompileInputs.cache
+C:\Users\Nubi\Desktop\Zad1\Zad1\obj\Debug\Zad1.exe
+C:\Users\Nubi\Desktop\Zad1\Zad1\obj\Debug\Zad1.pdb

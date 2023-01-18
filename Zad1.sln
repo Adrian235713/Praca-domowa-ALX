@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zad1", "Zad1\Zad1.csproj", "{1B5C46EE-E912-48D6-B0FB-6E5DF45ECC54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{588E8C84-0513-4833-9447-2A4B609C5967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lotto+", "Lotto+\Lotto+.csproj", "{09298D06-CE49-415F-B873-DDFD355C89F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B5C46EE-E912-48D6-B0FB-6E5DF45ECC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5C46EE-E912-48D6-B0FB-6E5DF45ECC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5C46EE-E912-48D6-B0FB-6E5DF45ECC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5C46EE-E912-48D6-B0FB-6E5DF45ECC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588E8C84-0513-4833-9447-2A4B609C5967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588E8C84-0513-4833-9447-2A4B609C5967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588E8C84-0513-4833-9447-2A4B609C5967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588E8C84-0513-4833-9447-2A4B609C5967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09298D06-CE49-415F-B873-DDFD355C89F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09298D06-CE49-415F-B873-DDFD355C89F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09298D06-CE49-415F-B873-DDFD355C89F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09298D06-CE49-415F-B873-DDFD355C89F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A7537B7-89AC-4DD4-AF4A-24B3A6CF691C}
+	EndGlobalSection
+EndGlobal
