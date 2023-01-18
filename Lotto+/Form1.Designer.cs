@@ -31,9 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.losowaniaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sprawdzWynikiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.textDrawResults = new System.Windows.Forms.TextBox();
             this.butDraw = new System.Windows.Forms.Button();
@@ -50,14 +47,13 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.x = new System.Windows.Forms.Label();
-            this.menuStrip2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
-            this.menuStrip1.Location = new System.Drawing.Point(0, 38);
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1026, 24);
             this.menuStrip1.TabIndex = 0;
@@ -68,31 +64,6 @@
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
-            // menuStrip2
-            // 
-            this.menuStrip2.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
-            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(28, 28);
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.losowaniaToolStripMenuItem,
-            this.sprawdzWynikiToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(1026, 38);
-            this.menuStrip2.TabIndex = 2;
-            this.menuStrip2.Text = "menuStrip2";
-            // 
-            // losowaniaToolStripMenuItem
-            // 
-            this.losowaniaToolStripMenuItem.Name = "losowaniaToolStripMenuItem";
-            this.losowaniaToolStripMenuItem.Size = new System.Drawing.Size(128, 34);
-            this.losowaniaToolStripMenuItem.Text = "Losowania";
-            // 
-            // sprawdzWynikiToolStripMenuItem
-            // 
-            this.sprawdzWynikiToolStripMenuItem.Name = "sprawdzWynikiToolStripMenuItem";
-            this.sprawdzWynikiToolStripMenuItem.Size = new System.Drawing.Size(172, 34);
-            this.sprawdzWynikiToolStripMenuItem.Text = "Sprawdz wyniki";
             // 
             // label1
             // 
@@ -138,6 +109,7 @@
             this.butReset.TabIndex = 7;
             this.butReset.Text = "Reset";
             this.butReset.UseVisualStyleBackColor = true;
+            this.butReset.Click += new System.EventHandler(this.butReset_Click);
             // 
             // textLotPlas
             // 
@@ -250,12 +222,9 @@
             this.Controls.Add(this.textDrawResults);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.menuStrip2);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
-            this.menuStrip2.ResumeLayout(false);
-            this.menuStrip2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -265,9 +234,6 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem losowaniaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sprawdzWynikiToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textDrawResults;
         private System.Windows.Forms.Button butDraw;
