@@ -92,6 +92,8 @@ namespace Lotto_
             textInpLootPlus.Text = "";
             textResultsLotto.Text = "";
             textResultsLootoPlus.Text = "";
+            numbersLotto = "";
+            numbersLottoPlus = "";
         }
 
         //----------------------------------------------------------------------------------------------
